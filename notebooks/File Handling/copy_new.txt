@@ -1,0 +1,2 @@
+some contents to a file 
+ another line 
