@@ -1,0 +1,52 @@
+INFO:root:log this line of execution
+INFO:root:this is my print
+INFO:root:this is my print
+WARNING:root:this is my warning message
+ERROR:root:this is my error
+CRITICAL:root:this is critical message/error
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
+CRITICAL:root:this is critical message/error
+INFO:root:log this line of execution
+INFO:root:this is my print
+WARNING:root:this is my warning message
+ERROR:root:this is my error
+CRITICAL:root:this is critical message/error
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
+INFO:root:log this line of execution
+INFO:root:this is my print
+WARNING:root:this is my warning message
+ERROR:root:this is my error
+CRITICAL:root:this is critical message/error
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
+INFO:root:log this line of execution
+INFO:root:this is my print
+WARNING:root:this is my warning message
+ERROR:root:this is my error
+CRITICAL:root:this is critical message/error
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
+INFO:root:this is my info logging
+ERROR:root:this is my error message
+CRITICAL:root:critical message
