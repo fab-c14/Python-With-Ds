@@ -1,0 +1,8 @@
+
+git(code) -> aws ->
+  |         cloud hosting 
+connection    /           \
+  \          |             |
+   code pipeline  ->   BeanStack    <-    aws services 
+                    (provides services )
+                    free account
