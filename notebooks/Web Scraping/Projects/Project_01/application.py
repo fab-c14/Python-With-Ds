@@ -19,13 +19,16 @@ db_conn = "mongodb+srv://pwskills:pwskills@cluster0.aawzqk7.mongodb.net/?retryWr
 
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
-app = Flask(__name__)
+application = Flask(__name__)
+app=application
 
 @app.route("/", methods = ['GET'])
+@cross_origin()
 def homepage():
     return render_template("index.html")
 
 @app.route("/review" , methods = ['POST' , 'GET'])
+@cross_origin()
 def index():
     if request.method == 'POST':
         try:
@@ -87,7 +90,7 @@ def index():
                 
                 reviews.append(mydict)
             logging.info("log my final result {}".format(reviews))
-
+            # database settings
             client = MongoClient(db_conn)
             db = client['review_scrap']
             review_col = db['review_scrap_data']
@@ -105,3 +108,6 @@ def index():
 
 if __name__=="__main__":
     app.run(host="0.0.0.0")
+    # app.run(debug=True)
+
+    # now lets use aws to host this website 
