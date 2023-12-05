@@ -81,3 +81,27 @@ def index():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000)
+
+
+# lets deploy this app on azure...  first you have to login to and it will ask you credit details ,
+# now search for webapp in portal 
+# then create 
+# click on create a new resource and name it 
+# #enter app name
+# select which app is this 
+# select a runtime stack as python 
+# click review + create 
+# enable continuos development
+# select your account
+# select repository where your code is 
+# select branch
+# click on review + create 
+# then click on create - if everything is okay its going to deploy and take some time
+
+# it will show deployment complete, or sucess
+# deployment is success
+# got to resource 
+# and goto deployment center
+# go to logs and will show you logs
+# # click on build and deploy , it will show you its still deploying, when deployment is done it will give you a link
+#  
