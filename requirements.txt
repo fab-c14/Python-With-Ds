@@ -6,3 +6,5 @@ torch==1.12.1
 torchvision==0.13.1
 tqdm==4.64.0
 flask==3.0.0
+scipy
+seaborn
